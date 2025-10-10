@@ -23,5 +23,17 @@ O sistema lê listas de questões pré-formatadas no código e gera um arquivo P
 
 ---
 
+##Prompt utilizado
+
+-Extraia todas as perguntas, alternativas e destaque a resposta correta. Depois, para cada questão, faça um pequeno resumo explicando por que a resposta está correta.
+
+-Quero tudo no formato que irei te passar abaixo (não utilize caracteres Unicode no texto):
+atividade_1 = [ { "pergunta":"Dos pontos listados abaixo, qual deles é mais importante na aplicacao do Business Intelligence?", "alternativas":[ "Geracao de uma infinidade de graficos", "Fornecer suporte ao processo de tomada de decisao (Correta)", "Verificar se as previsoes feitas pelos gestores se concretizaram ou nao", "Transformar conhecimento em dados e em informacoes", "Geracao de uma infinidade de relatorios" ], "resumo":"O objetivo central do Business Intelligence (BI) e apoiar a tomada de decisao. Graficos e relatorios sao apenas ferramentas; o que realmente importa e transformar dados em insights que orientem escolhas estrategicas." }.
+
+-Quero tudo em formato de codigo pronto para copiar e colar em um projeto python.
+
+---
+
+
 
 

@@ -4,7 +4,7 @@ Na necessidade de estudar para uma prova que iria abranger todos os conteúdos d
 
 #  Gerador de PDF
 
-Este projeto é um **gerador automático de PDFs** com questões, alternativas e resumos de atividades sobre *Empreendedorismo e Legislação*, desenvolvido em **Python** utilizando a biblioteca [`fpdf`](https://pyfpdf.github.io/fpdf2/).
+Este projeto é um **gerador automático de PDFs** com *questões, alternativas e resumos de atividades*, desenvolvido em **Python** utilizando a biblioteca [`fpdf`](https://pyfpdf.github.io/fpdf2/).
 
 O sistema lê listas de questões pré-formatadas no código e gera um arquivo PDF bem estruturado e pronto para impressão ou distribuição digital.
 
@@ -22,5 +22,6 @@ O sistema lê listas de questões pré-formatadas no código e gera um arquivo P
 -  Exportação final para um arquivo PDF (`nome_desejado.pdf`).
 
 ---
+
 
 

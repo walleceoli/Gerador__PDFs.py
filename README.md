@@ -23,7 +23,7 @@ O sistema lê listas de questões pré-formatadas no código e gera um arquivo P
 
 ---
 
-##Prompt utilizado
+##  Prompt utilizado
 
 -Extraia todas as perguntas, alternativas e destaque a resposta correta. Depois, para cada questão, faça um pequeno resumo explicando por que a resposta está correta.
 
@@ -33,6 +33,7 @@ atividade_1 = [ { "pergunta":"Dos pontos listados abaixo, qual deles é mais imp
 -Quero tudo em formato de codigo pronto para copiar e colar em um projeto python.
 
 ---
+
 
 
 

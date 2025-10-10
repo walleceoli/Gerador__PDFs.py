@@ -26,10 +26,10 @@ def adicionar_atividade(titulo, questoes):
     pdf.ln(2)
     pdf.set_font("Arial", '', 12)
     for q in questoes:
-        pdf.multi_cell(0, 7, limpar_texto(f"Pergunta: {q['pergunta']}\nAlternativas:"))
-        for alt in q['alternativas']:
+        pdf.multi_cell(0, 7, limpar_texto(f"Pergunta: {q['Pergunta']}\nAlternativas:"))
+        for alt in q['Alternativas']:
             pdf.multi_cell(0, 7, f"- {limpar_texto(alt)}")
-        pdf.multi_cell(0, 7, limpar_texto(f"Resumo: {q['resumo']}\n"))
+        pdf.multi_cell(0, 7, limpar_texto(f"Resumo: {q['Resumo']}\n"))
         pdf.ln(2)
     pdf.add_page()
 
